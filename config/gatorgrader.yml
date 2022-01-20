@@ -1,13 +1,13 @@
 ---
-name: test
+name: simple-assignment
 break: true
 fastfail: false
 indent: 2
 version: v1.1.0
 ---
 ./build.gradle:
-  ConfirmFileExists
+  --description "Make a build.gradle file" ConfirmFileExists
 
-CountCommits --count 1
+--description "Have at least 4 commits" CountCommits --count 4
 
 (pure) echo "check!"
