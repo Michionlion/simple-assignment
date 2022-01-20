@@ -4,6 +4,7 @@ on: [push, pull_request]
 jobs:
   grade:
     runs-on: ubuntu-latest
+    name: Grade
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
