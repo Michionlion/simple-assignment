@@ -8,4 +8,4 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Run GatorGradle
-        uses: michionlion/gatorgradle-action@v1
+        uses: GatorEducator/gatorgradle-action@v1
