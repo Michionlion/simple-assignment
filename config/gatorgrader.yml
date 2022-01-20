@@ -3,7 +3,7 @@ name: test
 break: true
 fastfail: false
 indent: 2
-version: master
+version: v1.1.0
 ---
 ./build.gradle:
   ConfirmFileExists
