@@ -1,4 +1,4 @@
-# simple-assignment-example
+# Simple Assignment Example
 
 This repository is an example of an extremely simple GatorGradle/GatorGrader
 setup -- to extend it for your purposes, add checks to `config/gatorgrader.yml`
