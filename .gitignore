@@ -1,0 +1,7 @@
+# Gradle cache/store
+.gradle/
+
+# Temporary files
+.DS_Store
+*.swp
+*.swo

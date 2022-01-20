@@ -1,0 +1,13 @@
+---
+name: test
+break: true
+fastfail: false
+indent: 2
+version: master
+---
+./build.gradle:
+  ConfirmFileExists
+
+CountCommits --count 1
+
+(pure) echo "check!"
