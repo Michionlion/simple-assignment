@@ -14,9 +14,9 @@ version: v1.1.0
 # A check inside these blocks runs on the "." directory against the "build.gradle" file
 config:
   gatorgrader.yml:
-    --description "Make a gatorgrader.yml file" ConfirmFileExists
+    --description "Make a gatorgrader.yml file in config/" ConfirmFileExists
   main.yml:
-    ConfirmFileExists
+    --description "Make a main.yml file" ConfirmFileExists
 
 # A check without a surrounding block runs in the "." directory
 --description "Have at least 7 commits" CountCommits --count 7
