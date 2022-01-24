@@ -15,6 +15,8 @@ version: v1.1.0
 config:
   gatorgrader.yml:
     --description "Make a gatorgrader.yml file" ConfirmFileExists
+  main.yml:
+    ConfirmFileExists
 
 # A check without a surrounding block runs in the "." directory
 --description "Have at least 7 commits" CountCommits --count 7
