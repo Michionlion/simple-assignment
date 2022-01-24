@@ -21,5 +21,7 @@ config:
 # A check without a surrounding block runs in the "." directory
 --description "Have at least 7 commits" CountCommits --count 7
 
+(pure) test 2 -eq 4
+
 # A pure check runs directly as a shell command
 (pure) test 2 -eq 2
